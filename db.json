@@ -1,0 +1,14 @@
+{
+  "transaction": [
+    {
+      "title": "Freela",
+      "amount": 2000,
+      "id": 1
+    },
+    {
+      "title": "Conta de Luz",
+      "amount": -280,
+      "id": 2
+    }
+  ]
+}

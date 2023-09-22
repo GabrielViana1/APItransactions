@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        
+        <form id="form" method="post" action="http://localhost:3000/transaction">
+            <h2>Nova Transação</h2>
+            <input type="text" id="id" class="id" disabled hidden>
+            <label for="name">Nome:</label>
+            <input type="text" id="title" class="title" required>
+            <label for="value">Valor:</label>
+            <input type="number" id="amount" class="amount" required>
+            <button type="submit" id="sendTransaction" class="save">Salvar</button>
+        </form>
+        
+        <section>
+            <h2 id="balance" class="balance">Saldo:</h2>
+            <h2>Histórico de Transações</h2>
+            <article id="article">
+            </article>
+        </section>
+
+        <div class="returnTop" id="btnReturnTop">
+            <img src="/seta-para-cima.png" alt="">
+        </div>
+    </main>
+</body>
+
+</html>
