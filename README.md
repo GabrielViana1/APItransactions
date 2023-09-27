@@ -23,7 +23,11 @@ Este projeto inclui a integração direta com uma API, utilizando solicitações
 
 1. Clone este repositório em sua máquina local.
 2. Abra o arquivo `index.html` em seu navegador da web.
-3. Comece a registrar suas transações financeiras!
+3. Antes de iniciar a aplicação, certifique-se de ter o Node.js e o npm instalados em seu sistema.
+4. Execute o seguinte comando para iniciar o servidor JSON simulado (necessário para a integração da API):
+npm install -g json-server
+npm run json-server
+5. Agora você pode começar a registrar suas transações financeiras!
 
 ## Contribuição
 
